@@ -1,8 +1,9 @@
-# shoppingList
+# Shopping List
 shopping list build with vanilla JS
 
 ## Motivation
 I wanted to create an app that uses vanilla JS to manipulate the DOM
+
 ## Build Status
 Complete
 
