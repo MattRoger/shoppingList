@@ -39,7 +39,3 @@ Vanilla JavaScript
   * :octocat: [Github](https://mattroger.github.io)
   * :e-mail: mattroger.webdev@gmail.com
   * :man_office_worker: www.linkedin.com/in/matt-roger/
-
-
-## License
-
