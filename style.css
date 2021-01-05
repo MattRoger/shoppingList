@@ -1,19 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+*{
+    font-family: 'Coming Soon', cursive;
+}
 body{
-    background-color: bisque;
+    background-color: #F7F7F2;
+}
+h1, 
+.list,
+.input{
+    width:60vw;
+    margin:auto;
+}
+h1{
+    text-align: center;
+}
+ul{
+    padding-left: 0;
 }
 li{
-    list-style: none;
+    list-style: none;   
+    display: flex;
+    align-items: center;
 }
-
-
-/* .up{
-    background-color: #8EB5CD;
+li p{
+    width:50%;
+    font-size:1.5rem;
 }
+  li button {
+    font-size: .75em;
+    padding: .5em .65em;
+  }
 
-.down{
-    background-color: #FEF5AE;
+  button + button {
+    margin-left: .5em;
+
+  }
+ li input, li p{
+    margin-right: 1em;
+  }
+  li label{
+      margin-right:.5em;
+      width:15%;
+  }
+li:nth-child(odd){
+    background:#E3E9F3;
 }
-
-.remove{
-    background-color: #EF8089;
-} */
+li:nth-child(even){
+    background:#D9EDFD;
+}
+.addItemButton{
+    margin-top: .5rem;
+}
