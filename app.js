@@ -120,7 +120,7 @@ listUl.onchange=function(){
             label.textContent="Purchased"
         }else{
             li.style.opacity=1;
-            label.textContent="need to Purchase"
+            label.textContent="Need to Purchase"
         }
         console.log(checkbox[i].checked)
 
