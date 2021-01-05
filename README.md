@@ -1,5 +1,5 @@
 # Shopping List :memo:
-:pencil:
+
 shopping list build with vanilla JS
 
 ## Motivation
