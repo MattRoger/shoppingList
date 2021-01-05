@@ -1,3 +1,4 @@
+//color palette
 const red="#EF8089"
 const redHighlight="#E63946";
 const blue= " #8EB5CD"
@@ -7,6 +8,7 @@ const yellowHighlight="#FDE74C";
 const green="#87D68D";
 const greenHighlight="#67CB6F";
 
+// page elements
 const addItemInput = document.querySelector("input.addItemInput");
 const listDiv = document.querySelector(".list");
 let addItemInputQuantity = document.querySelector(
@@ -17,6 +19,7 @@ const listUl = listDiv.querySelector("ul");
 const list = listUl.children;
 
 
+// attaches buttons and checkbox
 function attachListItemsButtons(li) {
   let checkbox = document.createElement("input");
   checkbox.className = "checkbox";
@@ -42,6 +45,7 @@ function attachListItemsButtons(li) {
   li.appendChild(remove);
 };
 
+// adds functions to list buttons, remove, up, and down
 listUl.addEventListener("click", (e) => {
   if (e.target.tagName == "BUTTON") {
     if (e.target.className == "remove") {
@@ -68,6 +72,8 @@ listUl.addEventListener("click", (e) => {
   }
 });
 
+
+// mouseover effect, changes color of list buttons on mouseover
 listUl.addEventListener("mouseover", (e) => {
     if (e.target.tagName == "BUTTON") {
       if (e.target.className == "remove") {
@@ -81,6 +87,7 @@ listUl.addEventListener("mouseover", (e) => {
       }
     }
   });
+// mouseout effect, changes color of list buttons on mouseout
 listUl.addEventListener("mouseout", (e) => {
     if (e.target.tagName == "BUTTON") {
       if (e.target.className == "remove") {
@@ -95,8 +102,7 @@ listUl.addEventListener("mouseout", (e) => {
     }
   });
 
-
-
+// adds list items
 addItemButton.addEventListener("click", () => {
   let ul = document.getElementsByTagName("ul")[0];
   let li = document.createElement("li");
@@ -112,6 +118,7 @@ addItemButton.addEventListener("click", () => {
   addItemInputQuantity.value=1;
 });
 
+// changes opacity of list item if checkbox is checked
 listUl.onchange=function(){
     let checkbox= document.getElementsByClassName("checkbox");
     for(let i=0; i<checkbox.length; i++){
@@ -127,6 +134,7 @@ listUl.onchange=function(){
     }   
 }
 
+// changes color of addItemButton
 addItemButton.style.backgroundColor=green;
 addItemButton.addEventListener("mouseover", (e) => {
     e.target.style.backgroundColor=greenHighlight;

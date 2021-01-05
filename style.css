@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 *{
     font-family: 'Coming Soon', cursive;
+    color: #36454f
 }
 body{
     background-color: #F7F7F2;
@@ -14,6 +15,8 @@ h1,
 }
 h1{
     text-align: center;
+    font-size:3rem;
+    border-bottom:2px solid #36454f;
 }
 ul{
     padding-left: 0;
@@ -48,6 +51,10 @@ li:nth-child(odd){
 }
 li:nth-child(even){
     background:#D9EDFD;
+}
+.input,
+.addItemButton{
+    font-size:1.25rem;
 }
 .addItemButton{
     margin-top: .5rem;
