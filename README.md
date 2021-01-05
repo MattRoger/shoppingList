@@ -1,11 +1,12 @@
-# Shopping List
+# Shopping List :memo:
+:pencil:
 shopping list build with vanilla JS
 
 ## Motivation
 I wanted to create an app that uses vanilla JS to manipulate the DOM
 
 ## Build Status
-Complete
+Complete :checkered_flag:
 
 ## Tech/framework used
 HTML, CSS, JavaScript
