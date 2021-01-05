@@ -40,4 +40,4 @@ Vanilla JavaScript
   * :e-mail: mattroger.webdev@gmail.com
   * :man_office_worker: www.linkedin.com/in/matt-roger/
   
-  :tomato: :cut_of_meat: :banana: 	:carrot: :grapes:
+  :tomato: :cut_of_meat: :banana: :egg:	:carrot: :cheese: :grapes:
