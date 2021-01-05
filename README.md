@@ -1,6 +1,7 @@
 # Shopping List :memo:
 
 shopping list build with vanilla JS
+[Deployed](https://mattroger.github.io/shoppingList/)
 
 ## Motivation
 I wanted to create an app that uses vanilla JS to manipulate the DOM
