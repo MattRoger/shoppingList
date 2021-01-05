@@ -4,6 +4,8 @@ const blue= " #8EB5CD"
 const blueHighlight="#4B86AA";
 const yellow="#FEF5AE"
 const yellowHighlight="#FDE74C";
+const green="#87D68D";
+const greenHighlight="#67CB6F";
 
 const addItemInput = document.querySelector("input.addItemInput");
 const listDiv = document.querySelector(".list");
@@ -122,9 +124,13 @@ listUl.onchange=function(){
             li.style.opacity=1;
             label.textContent="Need to Purchase"
         }
-        console.log(checkbox[i].checked)
-
-    }
-    
-   
+    }   
 }
+
+addItemButton.style.backgroundColor=green;
+addItemButton.addEventListener("mouseover", (e) => {
+    e.target.style.backgroundColor=greenHighlight;
+})
+addItemButton.addEventListener("mouseout", (e) => {
+    e.target.style.backgroundColor=green;
+})
