@@ -14,11 +14,12 @@ Vanilla JavaScript
 
 ## Features
 * List items inserted by vanilla JavaScript
-![add shopping list item](https://github.com/MattRoger/screenshots/blob/master/shoppinglist/Shopping%20List.gif?raw=true)
+![shopping list function](https://github.com/MattRoger/screenshots/blob/master/shoppinglist/ShoppinglistAddItems.gif?raw=true)
 
 * Up and Down buttons change list place by using vanilla JavaScript to manipulate the DOM
 * Checkbox changes opacity for items that are purchased, changes label for checkbox
-![shopping list function](https://github.com/MattRoger/screenshots/blob/master/shoppinglist/ShoppinglistAddItems.gif?raw=true)
+![add shopping list item](https://github.com/MattRoger/screenshots/blob/master/shoppinglist/Shopping%20List.gif?raw=true)
+
 
 ## How to use?
 * Add an item and quanity
